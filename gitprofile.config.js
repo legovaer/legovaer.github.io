@@ -28,20 +28,23 @@ const config = {
     fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'Kubernetes',
     'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Python',
+    'Puppet',
+    'Ansible',
+    'Terraform',
+    'Bash',
+    'Chef',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'CI/CD',
+    'AWS',
+    'Google Cloud',
+    'IOT',
+    'SecOps',
+    'Monitoring',
+    'Dashboarding',
   ],
   experiences: [
     {
@@ -75,8 +78,8 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'legovaer', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
